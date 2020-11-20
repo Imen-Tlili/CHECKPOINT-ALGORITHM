@@ -1,0 +1,25 @@
+ALGORITHM test_phrase
+
+Var 
+phrase: STRING;
+nbr_char: INTEGER;
+nbr_mot: INTEGER;
+nbr_voyelle: INTEGER;
+c: char
+
+BEGIN
+for (i:=0 to i<= phrase.length, i++){
+write('enter a sentence');
+read('phrase');
+nbr_char:=0;
+nbr_mot :=0;
+nbr_voyelle :=0;
+
+if{(phrase[i]=== c) then nbr_char+:=1;
+else if( phrase[i]===' ' AND phrase[i+1] !===' ') then nbr-mot +:=1;
+else if (phrase [i]==='a' or 'e' or 'i' or 'o' or 'u' or 'y') then nbr_voyelle +:=1;
+}
+}
+
+write('The number of character is' nbr_char ',' 'The number of word is'nbr_mot and The number of voyelle is'nbr_voyelle);
+END
